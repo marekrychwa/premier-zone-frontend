@@ -21,3 +21,10 @@ body {
   max-width: 1200px;
   margin: 0 auto;
 }
+
+.player-card {
+  background: #2a2a2a;
+  padding: 16px;
+  margin-bottom: 12px;
+  border-radius: 8px;
+}
