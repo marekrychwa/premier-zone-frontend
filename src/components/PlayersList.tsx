@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
-import { getPlayers, Player } from "../services/api";
+import { getPlayers } from "../services/api";
+import type { Player } from "../services/api";
 
 export default function PlayersList() {
   const [players, setPlayers] = useState<Player[]>([]);
