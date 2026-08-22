@@ -9,7 +9,7 @@ export interface Player {
   assists: number;
 }
 
-const API_URL = "http://127.0.0.1:8081/api/v1";
+const API_URL = "http://127.0.0.1:8083/api/v1";
 
 export async function getPlayers(): Promise<Player[]> {
   const response = await fetch(`${API_URL}/player`);
